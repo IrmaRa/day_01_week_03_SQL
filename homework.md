@@ -1,3 +1,5 @@
+## Questions
+
 1. Return ALL the data in the 'movies' table.
 
 
@@ -8,7 +10,7 @@ select * from movies;
 
 select name from people;
 
-3.Oops! Someone at CodeClan spelled Johnny's name wrong! Change it to reflect the proper spelling (change 'Jnny Watson' to 'Johnny Watson').
+3. Oops! Someone at CodeClan spelled Johnny's name wrong! Change it to reflect the proper spelling (change 'Jnny Watson' to 'Johnny Watson').
 
 
 update people set name = 'Johnny Watson' where name = 'Jnny Watson';
